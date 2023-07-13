@@ -14,6 +14,8 @@ public class extractJson {
 	{
 		ObjectMapper o = new ObjectMapper();
 		CustomerDetailsAppium c = o.readValue(new File("/Users/paulantony/eclipse-workspace/JsonJava/CustomerInfo0.json"), CustomerDetailsAppium.class);
-		System.out.println(c.getCourseName());		
+		System.out.println(c.getCourseName());	
+		System.out.println("Tahst it");
+
 	}
 }
