@@ -36,6 +36,8 @@ public class CustomerDetailsAppium {
 	}
 	public void setLocation(String location) {
 		Location = location;
+		System.out.println("this is the setter method for location");
+
 	}
     
     

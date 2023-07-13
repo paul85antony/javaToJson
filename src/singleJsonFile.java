@@ -91,6 +91,8 @@ try(FileWriter file = new FileWriter("/Users/paulantony/eclipse-workspace/JsonJa
 
 conn.close();
 System.out.println("Closing the connection");
+System.out.println("this is the setter method");
+
 
 
 }

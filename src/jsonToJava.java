@@ -44,6 +44,8 @@ System.out.println(c.getCourseName());
 System.out.println(c.getPurchaseDate());
 System.out.println(c.getAmount());
 System.out.println(c.getLocation());
+System.out.println("this is the setter method");
+
 
 //3 different json file means 3 different java objects.
 
